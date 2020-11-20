@@ -10,7 +10,7 @@ public class FrontController {
 	@RequestMapping(value="/" , method=RequestMethod.GET)
 	public String rootView() {
 		
-		return "/home";
+		return "home";
 	}
 	
 }
