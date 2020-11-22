@@ -9,8 +9,12 @@ public class FrontController {
 	//@RequestMapping(value="/" , method=RequestMethod.GET)
 	@GetMapping("/")
 	public String rootView() {
-		
 		return "home";
+	}
+	
+	@GetMapping("/console")
+	public String console() {
+		return "console";
 	}
 	
 }
