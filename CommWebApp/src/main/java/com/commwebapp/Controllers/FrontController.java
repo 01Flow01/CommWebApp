@@ -12,6 +12,11 @@ public class FrontController {
 		return "home";
 	}
 	
+	@GetMapping("/home")
+	public String home() {
+		return "home";
+	}
+	
 	@GetMapping("/console")
 	public String console() {
 		return "console";
